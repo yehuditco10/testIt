@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6667378b3a944bd788867b39019dca07" Name="Diagram1">
+        <EntityTypeShape EntityType="checkTestModel.Answer" Width="1.5" PointX="10.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Category" Width="1.5" PointX="5.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Class" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Course" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.QuestionforTest" Width="1.5" PointX="10.25" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Question" Width="1.5" PointX="8" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.student" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.StudentForCourse" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Teacher" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.Test" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="checkTestModel.TestForStudent" Width="1.5" PointX="6" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="checkTestModel.FK_Answers_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_Questions_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_Course_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_QuestionsforTest_Questions" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_StudentForTeacher_student1" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_TestForStudent_student" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_StudentForTeacher_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_Test_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="checkTestModel.FK_QuestionforTest_Test" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
